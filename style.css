@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: Tahoma;
+  background-color: rgb(34, 150, 44);
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 98vw;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.Login .container {
+  max-width: 460px;
+  margin: 3rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: block;
+  width: 100%;
+  color: #000;
+  border: 1px solid rgb(14, 10, 10);
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+}
+.input.input-error {
+  border: 1px solid rgb(180, 1, 1);
+}
+.input.input-error:focus {
+  border: 1px solid rgb(180, 1, 1);
+}
+.input:focus {
+  outline: none;
+  border: 1px solid rgb(47, 200, 123);
+  background-clip: padding-box;
+}
+
+.error-message {
+  font-size: 0.85rem;
+  color: rgb(180, 1, 1);
+}
+
+.button {
+  background-color: rgb(34, 150, 44);
+  padding: 1rem;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  display: block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.button:hover {
+  filter: brightness(110%);
+}/*# sourceMappingURL=style.css.map */
